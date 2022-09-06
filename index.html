@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,700&display=swap');
+@font-face {
+  font-family: myFirstFontBOLD;
+  src: url(./Fonts/SFUIText-Bold.woff);
+}@font-face {
+  font-family: myFirstFontLight;
+  src: url(./Fonts/SFUIText-Light.woff);
+}
+</style><meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Email Signature</title>
   </head>
 
@@ -11,13 +20,16 @@
     <table>
       <tr>
         <td colspan="2">
-          <img src="./company1.png" style="height: 50%; width: 50%" alt="" />
-          <p>dn</p>
+          <img src="./Images/company1.png" alt="" /><br />
+          <span style="color: #004963; font-size: 8pt"
+            >ACCÉLÉREZ VOS PROJETS <b>I</b>MMOBIL<b>I</b>ERS</span
+          >
         </td>
 
         <!----RIGHT----->
-        <td rowspan="5">
-          <img src="./loc.jpg" style="height: 250%; width: 250%" alt="" />
+        <td rowspan="2">
+          <img src="./Images/loc.jpg" alt="" /><br />
+          <span style="color: #01b9b3;font-family: 'Kufam', sans-serif; font-size: 32pt">runimmo.re</span>
         </td>
       </tr>
 
@@ -27,22 +39,22 @@
           <tr>
             <td>
               <p
-                style="
+                style="color: #004963;
                   border-left: 2px solid #01b9b3;
                   padding-left: 20px;
-                  padding-right: 30px;
+                  padding-right: 30px;font-family: myFirstFontLight;
                 "
               >
                 16 RUE ALEXIS DE VILLENEUVE <br />
                 97400 SAINT-DENIS <br />
-                0262 81 88 88 <br />
+                <span style="font-family: myFirstFontBOLD;">0262 81 88 88 </span><br />
               </p>
             </td>
             <td>
-              <p style="border-left: 2px solid #01b9b3; padding-left: 20px">
+              <p style="color: #004963;font-family: myFirstFontLight;border-left: 2px solid #01b9b3; padding-left: 20px">
                 52 BOULEVARD HUBERT DELISLE <br />
                 97410 SAINT-PIERRE <br />
-                0262 81 88 90 <br />
+               <span style="font-family: myFirstFontBOLD;"><b>0262 81 88 90</b> <br />
               </p>
             </td>
           </tr>
